@@ -21,8 +21,8 @@ PING tries to improve web privacy in several ways, including:
 * developing and sharing guidelines for standards authors, so that future
   additions to the Web platform can be designed to be private-by-default.
 
-This post discusses three "anti-patterns" PING sees in Web standards, or
-recurring issues in proposed standards that are harmful to Web privacy.
+This post discusses three "anti-patterns" PING sees in Web standards;
+reoccurring issues in proposed standards that are harmful to Web privacy.
 This is not intended to be a complete list, nor is it intended to call out
 or "shame" any particular existing standards; instead, the goal is to
 demonstrate frequently recurring problems seen in standards, to explain why
@@ -32,7 +32,7 @@ guidelines for how future standards can be designed to respect privacy.
 
 Three Privacy "Anti-Patterns" in Web Standards
 ---
-In this section we detail three recurring problems that harm privacy in
+In this section we detail three reoccurring problems that harm privacy in
 Web standards. Though each of these occur in many (many!) standards,
 we're intentionally *not* calling out or mentioning any specific standards,
 to keep the descriptions as general and pattern based as possible.  If anyone
@@ -70,7 +70,7 @@ with tremendous privacy problems.
 #### Solution
 Standards should define privacy protections just as carefully
 and precisely as they define new functionality.  Once functionality hits
-the Web, it's *extremely* difficult to change its behavior or roll it back.
+the Web, it's extremely difficult to change its behavior or roll it back.
 Protections need to be specific, as mandatory as the defined behavior, and
 defined from day one to protect Web privacy.
 
