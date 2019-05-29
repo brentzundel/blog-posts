@@ -39,7 +39,6 @@ to keep the descriptions as general and pattern based as possible.  If anyone
 would like more information or examples of any of the below, feel
 free to contact the author or anyone on PING for more specifics.
 
-
 ### Strictly Defined Functionality,  Loosely-Defined Protections
 Many standards strictly describe functionality that browser vendors should
 implement, but are very loose or vague about the mitigations browsers should
@@ -68,14 +67,15 @@ the new functionality outweigh the privacy harms.  In all cases, the end
 result is the addition of new privacy risks to a platform already struggling
 with tremendous privacy problems.
 
-**Solution:** Standards should define privacy protections just as carefully
+#### Solution
+Standards should define privacy protections just as carefully
 and precisely as they define new functionality.  Once functionality hits
 the Web, it's *extremely* difficult to change its behavior or roll it back.
 Protections need to be specific, as mandatory as the defined behavior, and
 defined from day one to protect Web privacy.
 
 
-### Uncommon Use Cases, Global Availability
+### 2. Uncommon Use Cases, Global Availability
 A second privacy-harming pattern we see in Web standards is the
 over-availability of new functionality; powerful new functionality aimed at
 niche use-cases, being made globally available (e.g., third-party code or
@@ -90,14 +90,15 @@ user identification (instead of the intended, user-serving purposes) can
 be observed in [popular user-tracking (e.g. privacy violating)
 tools](https://github.com/Valve/fingerprintjs2) and the changes
 [privacy-focused](https://2019.www.torproject.org/projects/torbrowser/design/)
-[implementers](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)
+[implementers](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove))
 need to make to keep their users private.
 
 We emphasize that we don't think that this new functionality isn't useful;
 it is! We only mean to highlight that it's also dangerous to privacy, and
 should be treated as such.
 
-**Solution:** Websites should not be able to access rarely needed
+#### Solution
+Websites should not be able to access rarely needed
 functionality, functionality aimed at very specific, uncommon use cases.
 Instead, websites should be only be allowed to use powerful new features
 when accessed from privileged positions (e.g., first-party code running
@@ -109,7 +110,7 @@ blog post), almost any "gating" is better than global access. Increasing the
 power of the Web, while improving user privacy, requires keeping rarely needed
 functionality rarely available.
 
-### "No Worse Than The Status Quo"
+### 3. "No Worse Than The Status Quo"
 A third privacy harming anti-pattern in Web standards concerns the bar
 standards authors use when evaluating new privacy-risking functionality.
 Frequently, standards authors start from the position that new standards
@@ -124,7 +125,8 @@ difficult), browser vendors need to untangle twice as many expected features
 from the Web. Just replicating existing fingerprinting surface amounts to
 further technical debt that we in the privacy community need to pay down.
 
-**Solution:** New standards should treat all additional privacy risk as equally
+#### Solution
+New standards should treat all additional privacy risk as equally
 problematic. The appropriate measure for new standards isn't "marginal
 increase in privacy risk"; it is "could the functionality in the standard
 be used to harm user privacy." Put differently: when you find you're digging
